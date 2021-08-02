@@ -1,0 +1,25 @@
+.bg {
+  background: rgb(16, 9, 34);
+}
+
+.headingPosition {
+  position: relative;
+  text-align: center;
+  color: white;
+  bottom: 140px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container{
+    grid-template-columns: auto;
+  }
+}
+

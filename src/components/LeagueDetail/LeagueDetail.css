@@ -1,0 +1,56 @@
+.container{
+    margin-top: -70px;
+}
+
+.bg {
+    background: rgb(16, 9, 34);
+  }
+
+.logoPosition{
+    position: relative;
+    bottom: 160px;
+    text-align: center;
+}
+
+.detail{
+    display: grid;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.detailInfo{
+    display: grid;
+    grid-template-columns: 30px auto; 
+    grid-gap: 10px;
+}
+
+.player{
+    text-align: right;
+}
+
+.media{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.media img{
+    width: 40%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .detail{
+        grid-template-columns: auto;
+    }
+    .player{
+        display: grid;
+        grid-template-columns: auto;
+    }
+  }
+
